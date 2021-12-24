@@ -1,0 +1,116 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Florian Buchner\\IdeaProjects\\birthday-contract\\contracts\\birthday-contract.sol": {
+      "lastModificationDate": 1640199051664,
+      "contentHash": "9c8a97365d919a62bdbb31d7715fb128",
+      "sourceName": "contracts/birthday-contract.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "BirthdayContract",
+        "IERC20",
+        "SafeMath"
+      ]
+    },
+    "C:\\Users\\Florian Buchner\\IdeaProjects\\birthday-contract\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1637675495476,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "C:\\Users\\Florian Buchner\\IdeaProjects\\birthday-contract\\contracts\\proxy-coin.sol": {
+      "lastModificationDate": 1637681055294,
+      "contentHash": "f213d1d265b09f098fb49e7b41824a35",
+      "sourceName": "contracts/proxy-coin.sol",
+      "solcConfig": {
+        "version": "0.7.3",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.7.0"
+      ],
+      "artifacts": [
+        "IERC20",
+        "ProxyCoin",
+        "SafeMath"
+      ]
+    }
+  }
+}
